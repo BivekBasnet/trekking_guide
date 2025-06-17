@@ -30,3 +30,8 @@ Route::get('/contact', function () {
 Route::get('/booknow', function () {
     return view('booking.create');
 })->name('booknow');
+
+Route::get('/admin', function () {
+    return view('admin.main');
+})->name('admin.main');
+
